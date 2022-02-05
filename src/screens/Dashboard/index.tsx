@@ -19,6 +19,7 @@ import { HighlightCards } from '../../components/HighlightCard/styles';
 export function Dashboard(){
   return(
     <Container>
+
       <Header>
         <UserWrapper>
           <UserInfo>
@@ -31,11 +32,13 @@ export function Dashboard(){
           <Icon name="power" />
         </UserWrapper>
       </Header>
+
       <HighlightCards>
         <HighlightCard />
         <HighlightCard />
         <HighlightCard />
       </HighlightCards>
+
     </Container>
   )
 }
