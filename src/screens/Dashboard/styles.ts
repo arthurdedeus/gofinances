@@ -59,3 +59,14 @@ export const Icon = styled(Feather)`
   color: ${({ theme }) => theme.colors.secondary};
   font-size: ${RFValue(24)}px;
 `
+export const Transactions = styled.View`
+  flex: 1;
+  padding: 0px 24px;
+
+  margin-top: ${RFPercentage(12)}px;
+`;
+
+export const Title = styled.Text`
+  font-size: ${RFValue(18)}px;
+  font-family: ${({ theme }) => theme.fonts.regular};
+`;

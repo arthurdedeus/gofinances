@@ -12,9 +12,12 @@ import {
   UserGreeting,
   UserName,
   Icon,
+  Transactions,
+  Title,
   } from './styles';
 import { HighlightCard } from '../../components/HighlightCard';
 import { HighlightCards } from '../../components/HighlightCard/styles';
+import { TransactionCard } from '../../components/TransactionCard';
 
 export function Dashboard(){
   return(
@@ -53,6 +56,13 @@ export function Dashboard(){
         type="total"
         />
       </HighlightCards>
+
+      <Transactions>
+        <Title>Listagem</Title>
+        <TransactionCard />
+        <TransactionCard />
+        <TransactionCard />
+      </Transactions>
 
     </Container>
   )
